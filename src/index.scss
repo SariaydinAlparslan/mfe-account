@@ -1,0 +1,168 @@
+$fa-font-path: "~font-awesome/fonts";
+@import "~font-awesome/scss/font-awesome";
+
+@import "~@edx/brand/paragon/fonts";
+@import "~@edx/brand/paragon/variables";
+@import "~@edx/paragon/scss/core/core";
+@import "~@edx/brand/paragon/overrides";
+@import "~@edx/frontend-component-header/dist/index";
+@import "~@edx/frontend-component-footer/dist/footer";
+
+@import "./account-settings/style";
+@import "./id-verification/id-verification";
+
+.word-break-all {
+  word-break: break-all !important;
+}
+
+// TODO: Update edx-bootstrap theme to incorporate these edits.
+.btn,
+a.btn {
+  text-decoration: none;
+  &:hover {
+    text-decoration: none;
+  }
+}
+.btn-link {
+  text-decoration: underline;
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
+#app {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  & > main {
+    flex-grow: 1;
+  }
+}
+
+.coaching-header {
+  .logo {
+    display: block;
+    box-sizing: content-box;
+    height: 1.75rem;
+    padding: 0.75rem 0;
+  }
+}
+
+.coaching-consent {
+  .disclaimer {
+    font-size: 0.75rem;
+  }
+}
+
+.checkboxOption {
+  input:focus {
+    outline: -webkit-focus-ring-color auto 5px;
+  }
+
+  label {
+    font-weight: normal;
+  }
+}
+
+// Omnikampus style
+
+.btn-inverse-outline-primary {
+  border-color: #54595f !important;
+  color: #54595f !important;
+}
+
+.active.pgn__dropdown-item.dropdown-item {
+  background-color: #94bab7 !important;
+}
+
+.nav-item.flex-shrink-0.nav-link.active {
+  border-bottom-color: #94bab7 !important;
+}
+
+a:not(.btn) {
+  color: #94bab7 !important;
+}
+
+button.btn-link {
+  color: #94bab7 !important;
+}
+
+a.btn.btn-brand {
+  background-color: #94bab7 !important;
+  border-color: #94bab7 !important;
+
+  &:focus::before {
+    border-color: #94bab7 !important;
+  }
+}
+
+button.btn.btn-outline-primary {
+  color: #94bab7 !important;
+  border-color: #94bab7 !important;
+}
+
+button.btn-icon.btn-icon-primary {
+  border-color: #94bab7 !important;
+  color: #94bab7 !important;
+
+  &:hover {
+    background-color: #94bab7 !important;
+    color: #fff !important;
+  }
+
+  &:focus {
+    box-shadow: inset 0 0 0 2px #94bab7;
+  }
+}
+
+button.flag-button {
+  &:hover {
+    border-color: #94bab7 !important;
+  }
+}
+
+.menu-trigger.nav-link:hover,
+.expanded .nav-link {
+  background: #94bab7 !important;
+  color: #ffffff !important;
+}
+
+.dropdown-item:active {
+  background-color: #94bab7 !important;
+  color: #ffffff !important;
+}
+
+svg.text-muted {
+  color: #94bab7 !important;
+}
+
+.pgn__stateful-btn.pgn__stateful-btn-state-default.btn.btn-primary,
+.pgn__stateful-btn.pgn__stateful-btn-state-null.btn.btn-primary,
+.pgn__modal-footer .pgn__action-row .btn-primary,
+.pgn__hyperlink.default-link.standalone-link.btn.btn-primary {
+  background-color: #94bab7 !important;
+  border-color: #94bab7 !important;
+  transition: all 0.25s;
+
+  &:hover {
+    opacity: 0.85;
+  }
+}
+
+.pgn__modal-header {
+  background-color: #94bab7 !important;
+}
+
+.pgn__bubble.pgn__bubble-primary {
+  &:not(.disabled) {
+    background-color: #94bab7 !important;
+  }
+}
+
+.nav-container nav.main-nav .nav-link {
+  &:focus,
+  &:hover {
+    background: #94bab7 !important;
+    color: #ffffff !important;
+  }
+}

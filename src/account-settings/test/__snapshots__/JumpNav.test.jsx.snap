@@ -1,0 +1,168 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`JumpNav should not render Optional Information link 1`] = `
+<div
+  className="jump-nav jump-nav-sm position-sticky pt-3"
+>
+  <ul
+    className="list-unstyled"
+    style={Object {}}
+  >
+    <li
+      className=""
+    >
+      <a
+        aria-current={null}
+        href="/#basic-information"
+        onClick={[Function]}
+      >
+        Account Information
+      </a>
+    </li>
+    <li
+      className=""
+    >
+      <a
+        aria-current={null}
+        href="/#profile-information"
+        onClick={[Function]}
+      >
+        Profile Information
+      </a>
+    </li>
+    <li
+      className=""
+    >
+      <a
+        aria-current={null}
+        href="/#social-media"
+        onClick={[Function]}
+      >
+        Social Media Links
+      </a>
+    </li>
+    <li
+      className=""
+    >
+      <a
+        aria-current={null}
+        href="/#site-preferences"
+        onClick={[Function]}
+      >
+        Site Preferences
+      </a>
+    </li>
+    <li
+      className=""
+    >
+      <a
+        aria-current={null}
+        href="/#linked-accounts"
+        onClick={[Function]}
+      >
+        Linked Accounts
+      </a>
+    </li>
+    <li
+      className=""
+    >
+      <a
+        aria-current={null}
+        href="/#delete-account"
+        onClick={[Function]}
+      >
+        Delete My Account
+      </a>
+    </li>
+  </ul>
+</div>
+`;
+
+exports[`JumpNav should render Optional Information link 1`] = `
+<div
+  className="jump-nav jump-nav-sm position-sticky pt-3"
+>
+  <ul
+    className="list-unstyled"
+    style={Object {}}
+  >
+    <li
+      className=""
+    >
+      <a
+        aria-current={null}
+        href="/#basic-information"
+        onClick={[Function]}
+      >
+        Account Information
+      </a>
+    </li>
+    <li
+      className=""
+    >
+      <a
+        aria-current={null}
+        href="/#profile-information"
+        onClick={[Function]}
+      >
+        Profile Information
+      </a>
+    </li>
+    <li
+      className=""
+    >
+      <a
+        aria-current={null}
+        href="/#demographics-information"
+        onClick={[Function]}
+      >
+        Optional Information
+      </a>
+    </li>
+    <li
+      className=""
+    >
+      <a
+        aria-current={null}
+        href="/#social-media"
+        onClick={[Function]}
+      >
+        Social Media Links
+      </a>
+    </li>
+    <li
+      className=""
+    >
+      <a
+        aria-current={null}
+        href="/#site-preferences"
+        onClick={[Function]}
+      >
+        Site Preferences
+      </a>
+    </li>
+    <li
+      className=""
+    >
+      <a
+        aria-current={null}
+        href="/#linked-accounts"
+        onClick={[Function]}
+      >
+        Linked Accounts
+      </a>
+    </li>
+    <li
+      className=""
+    >
+      <a
+        aria-current={null}
+        href="/#delete-account"
+        onClick={[Function]}
+      >
+        Delete My Account
+      </a>
+    </li>
+  </ul>
+</div>
+`;
